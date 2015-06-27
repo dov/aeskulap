@@ -1,0 +1,7 @@
+import glob
+Import('env')
+
+env.Program('aeskulap',
+            (glob.glob('*.cpp')
+             + glob.glob('*.c')),
+            )

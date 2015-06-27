@@ -1,0 +1,10 @@
+*/.sconsign.dblite
+.deps/
+*.o
+*.lo
+*.a
+*.la
+*.gmo
+/.sconsign.dblite
+/config.h
+/src/aeskulap

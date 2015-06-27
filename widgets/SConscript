@@ -1,0 +1,5 @@
+import glob
+Import('env')
+
+env.Library('widgets',
+            glob.glob('*.cpp'))

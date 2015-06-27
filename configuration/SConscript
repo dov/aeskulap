@@ -1,0 +1,10 @@
+import glob
+Import('env')
+
+env.Library('configuration',
+            [
+              'aconfigclient.cpp',
+              'aconfiguration.cpp',
+              'aconfiguration-gconf.cpp',
+              ],
+            )
